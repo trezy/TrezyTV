@@ -1,0 +1,43 @@
+nav {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: translateX( -100% );
+  width: 100px;
+
+  &.open {
+    transform: translateX( 0 );
+  }
+
+  .btn-show {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+header {
+  height: 100px;
+}
+
+main {
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  overflow-x: hidden;
+
+  > section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 64rem;
+    padding: 2rem;
+
+    section {
+
+    }
+  }
+}

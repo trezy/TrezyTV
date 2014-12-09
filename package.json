@@ -1,0 +1,37 @@
+{
+  "name": "TrezyTV",
+  "version": "0.0.1",
+  "main": "js/app.js",
+  "authors": [
+    "Trezy <tre@trezy.com>"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "./bin/npm-install.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:trezy/on-site-oil.git"
+  },
+  "dependencies": {
+    "body-parser": "latest",
+    "bower": "latest",
+    "coffee-script": "latest",
+    "connect-modrewrite": "latest",
+    "cors": "latest",
+    "express": "latest",
+    "grunt-autoprefixer": "latest",
+    "grunt-connect-pushstate": "latest",
+    "grunt-contrib-coffee": "latest",
+    "grunt-contrib-connect": "latest",
+    "grunt-contrib-sass": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-express": "latest",
+    "grunt-newer": "latest",
+    "grunt-notify": "latest",
+    "grunt-shell-spawn": "latest",
+    "load-grunt-config": "latest",
+    "mongoose": "latest",
+    "time-grunt": "latest"
+  }
+}

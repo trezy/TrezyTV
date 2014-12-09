@@ -1,0 +1,20 @@
+{
+  "name": "TrezyTV",
+  "version": "0.0.1",
+  "authors": [
+    "Trezy <tre@trezy.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "backbone.intercept": "latest",
+    "handlebars": "latest",
+    "marionette": "latest",
+    "requirejs": "latest",
+    "require-handlebars-plugin": "latest",
+    "backbone.radio": "latest",
+    "moment": "latest",
+    "moment-range": "latest",
+    "backbone.base-router": "~0.4.1"
+  }
+}

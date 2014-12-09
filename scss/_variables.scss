@@ -1,0 +1,44 @@
+$baseFontColor: white;
+$baseFontSize: 20px;
+
+$blue500: #2196F3;
+$blue700: #2962FF;
+$blue: $blue500;
+
+$indigo500: #3F51B5;
+$indigo500: #304FFE;
+$indigo: $indigo500;
+
+$disabledBackgroundColor: #666;
+$disabledTextColor: #999;
+
+$fadedAlpha: 0.7;
+$hoverAlpha: 1;
+
+$defaultColor: black;
+$defaultColorFaded: rgba( $defaultColor, $fadedAlpha );
+$defaultColorHover: rgba( $defaultColor, $hoverAlpha );
+$defaultAccent: black;
+$defaultAccentFaded: rgba( $defaultAccent, $fadedAlpha );
+$defaultAccentHover: rgba( $defaultAccent, $hoverAlpha );
+
+$primaryColor: #58b957;
+$primaryColorFaded: rgba( $primaryColor, $fadedAlpha );
+$primaryColorHover: rgba( $primaryColor, $hoverAlpha );
+$primaryAccent: #48af46;
+$primaryAccentFaded: rgba( $primaryAccent, $fadedAlpha );
+$primaryAccentHover: rgba( $primaryAccent, $hoverAlpha );
+
+$dangerColor: #d9534f;
+$dangerColorFaded: rgba( $dangerColor, $fadedAlpha );
+$dangerColorHover: rgba( $dangerColor, $hoverAlpha );
+$dangerAccent: #d43f3a;
+$dangerAccentFaded: rgba( $dangerAccent, $fadedAlpha );
+$dangerAccentHover: rgba( $dangerAccent, $hoverAlpha );
+
+$infoColor: black;
+$infoColorFaded: rgba( $infoColor, $fadedAlpha );
+$infoColorHover: rgba( $infoColor, $hoverAlpha );
+$infoAccent: #48af46;
+$infoAccentFaded: rgba( $infoAccent, $fadedAlpha );
+$infoAccentHover: rgba( $infoAccent, $hoverAlpha );

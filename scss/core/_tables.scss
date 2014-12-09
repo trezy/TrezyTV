@@ -1,0 +1,17 @@
+table {
+  width: 100%;
+}
+
+th, td {
+  padding: 1rem;
+  text-align: center;
+  vertical-align: center;
+}
+
+th {
+  background-color: $primaryColor;
+}
+
+td {
+  background-color: $defaultColor;
+}

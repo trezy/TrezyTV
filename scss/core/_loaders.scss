@@ -1,0 +1,11 @@
+.loading {
+  display: block;
+
+  &:after {
+    animation: fa-spin 1s infinite linear;
+    content: '\f110';
+    display: block;
+    font-family: FontAwesome;
+    font-size: 2em;
+  }
+}

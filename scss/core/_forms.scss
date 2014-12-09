@@ -1,0 +1,58 @@
+label,
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=url],
+textarea {
+  background: none;
+  border: 0;
+  color: white;
+  display: inline-block;
+  font-size: $baseFontSize;
+  margin: 0;
+  outline: 0;
+  padding: 1rem;
+  transition: background-color 0.2s;
+  width: 100%;
+}
+
+label {
+  background-color: $primaryColorFaded;
+
+  &:focus {
+    background-color: $primaryColor;
+  }
+}
+
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=url],
+textarea {
+  background-color: $defaultColorFaded;
+
+  &:focus {
+    background-color: $defaultColor;
+  }
+
+  &::-moz-input-placeholder,
+  &::-ms-input-placeholder,
+  &::-webkit-input-placeholder,
+  &::input-placeholder {
+    font-style: italic;
+    text-overflow: ellipsis;
+  }
+}
+
+textarea {
+  min-height: 10rem;
+  resize: vertical;
+}

@@ -1,0 +1,88 @@
+// Default state
+button,
+.button {
+  border-color: silver;
+  border-radius: 0.2rem;
+  border-style: solid;
+  border-width: 1px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  outline: 0;
+  overflow: hidden;
+  padding: 1rem;
+  text-align: center;
+  transition-duration: 0.2s;
+  transition-property: background-color, border-color;
+}
+
+button[disabled],
+button.disabled,
+.button[disabled],
+.button.disabled {
+  &, &:hover {
+    opacity: 0.5;
+  }
+}
+
+button.loading:after,
+.button.loading:after {
+  animation: fa-spin 2s infinite linear;
+  content: ' \f1ce';
+  font-family: FontAwesome;
+}
+
+// Sizes
+.button-small {
+  padding: 0.5rem;
+}
+
+.button-large {
+  padding: 1.5rem;
+}
+
+// Styles
+.button-default {
+  background-color: $defaultColorFaded;
+  border-color: $defaultAccentFaded;
+
+  &:hover,
+  &:focus {
+    background-color: $defaultColorHover;
+    border-color: $defaultAccentHover;
+  }
+}
+
+.button-primary {
+  background-color: $primaryColorFaded;
+  border-color: $primaryAccentFaded;
+
+  &:hover,
+  &:focus {
+    background-color: $primaryColorHover;
+    border-color: $primaryAccentHover;
+  }
+}
+
+.button-danger {
+  background-color: $dangerColorFaded;
+  border-color: $dangerAccentFaded;
+
+  &:hover,
+  &:focus {
+    background-color: $dangerColorHover;
+    border-color: $dangerAccentHover;
+  }
+}
+
+.button-info {
+  background-color: $infoColorFaded;
+  border-color: $infoAccentFaded;
+
+  &:hover,
+  &:focus {
+    background-color: $infoColorHover;
+    border-color: $infoAccentHover;
+  }
+}
